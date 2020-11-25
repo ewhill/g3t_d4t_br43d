@@ -1,0 +1,31 @@
+{
+  "name": "g3t_d4t_br34d",
+  "version": "0.1",
+  "description": "Want to g3t_d4t_br34d? Click, done.",
+  "permissions": [
+    "http://www.walmart.com/",
+    "https://www.walmart.com/",
+    "http://walmart.com/",
+    "https://walmart.com/",
+    "webNavigation",
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "16": "bread16.png",
+    "32": "bread32.png",
+    "64": "bread64.png",
+    "128": "bread128.png",
+    "256": "bread256.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
